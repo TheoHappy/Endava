@@ -34,7 +34,7 @@ public class Application {
         User u12 = new User("Haralambie","Ursu",32,"haralambie.ursu@gmail.com",Status.NEW,"01.10.2020");
         User u13 = new User("Ilarion","Voinea",30,"ilarion.voinea@gmail.com",Status.NEW,"04.08.2020");
         User u14 = new User("Iancu","Diaconu",40,"iancu.diaconu@gmail.com",Status.INACTIVE,"24.03.2020");
-        User u15 = new User("Luca","Dobre",16,"luca.dobre@gmail.com",Status.NEW,"13.01.2020");
+        User u15 = new User("Luca","Dobre",16,"luca.dobre@gmail.com",Status.NEW,"13.01git@github.com:TheoHappy/EndavaInception.git.2020");
 
 
     }
