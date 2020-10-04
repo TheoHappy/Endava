@@ -5,9 +5,9 @@ public class User {
     private int age;
     private String email;
     private Status status;
-    private String timeStamp;
+    private Date timeStamp;
 
-    public User(String firstName, String lastName, int age, String email, Status status, String timeStamp) {
+    public User(String firstName, String lastName, int age, String email, Status status, Date timeStamp) {
         this.firstName = firstName;
         this.lastName = lastName;
         setAge(age);
@@ -59,11 +59,11 @@ public class User {
     }
 
     public String getTimeStamp() {
-        return timeStamp;
+        return timeStamp.toString();
     }
 
-    public void setTimeStamp(String timeStamp) {
-        this.timeStamp = timeStamp;
+    public void setTimeStamp(int day, int month, int year) {
+        this.timeStamp = new Date(day,month,year);
     }
 
     @Override

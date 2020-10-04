@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8a785c89-0118-41f9-b9d1-7c80173ff586" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Date.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,26 +43,21 @@
   </component>
   <component name="ProjectId" id="1iPXfiN9a0MIUhv6NJFedOGF7C8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -71,23 +86,53 @@
       <workItem from="1601810312118" duration="3075000" />
       <workItem from="1601834913221" duration="482000" />
       <workItem from="1601835406413" duration="3316000" />
+      <workItem from="1601842541107" duration="1604000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1601842865771">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/-1440.0.1440.870@0.0.1920.1050" timestamp="1601842865771" />
+    <state width="1879" height="285" key="GridCell.Tab.0.bottom" timestamp="1601844010908">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1440.0.1440.870@0.0.1920.1050" timestamp="1601844010908" />
+    <state width="1879" height="285" key="GridCell.Tab.0.center" timestamp="1601844010908">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1440.0.1440.870@0.0.1920.1050" timestamp="1601844010908" />
+    <state width="1879" height="285" key="GridCell.Tab.0.left" timestamp="1601844010908">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1440.0.1440.870@0.0.1920.1050" timestamp="1601844010908" />
+    <state width="1879" height="285" key="GridCell.Tab.0.right" timestamp="1601844010908">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1440.0.1440.870@0.0.1920.1050" timestamp="1601844010908" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1601843466884">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1440.0.1440.870@0.0.1920.1050" timestamp="1601843466884" />
+    <state x="623" y="227" key="search.everywhere.popup" timestamp="1601842829000">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" key="search.everywhere.popup/0.0.1920.1050/-1440.0.1440.870@0.0.1920.1050" timestamp="1601842829000" />
   </component>
 </project>
