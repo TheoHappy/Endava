@@ -1,3 +1,6 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class User {
     private String firstName;
@@ -7,13 +10,13 @@ public class User {
     private Status status;
     private Date timeStamp;
 
-    public User(String firstName, String lastName, int age, String email, Status status, Date timeStamp) {
+    public User(String firstName, String lastName, int age, String email, Status status, String date) throws ParseException {
         this.firstName = firstName;
         this.lastName = lastName;
         setAge(age);
         this.email = email;
         this.status = status;
-        this.timeStamp = timeStamp;
+        setTimeStamp(date);
     }
 
     public String getFirstName() {
@@ -58,23 +61,25 @@ public class User {
         this.status = status;
     }
 
-    public String getTimeStamp() {
-        return timeStamp.toString();
+    public Date getTimeStamp() {
+        return timeStamp;
     }
 
-    public void setTimeStamp(int day, int month, int year) {
-        this.timeStamp = new Date(day,month,year);
+    public void setTimeStamp(String date) throws ParseException {
+        SimpleDateFormat sdformat = new SimpleDateFormat("dd.MM.yyyy");
+        this.timeStamp = sdformat.parse(date);
     }
 
     @Override
     public String toString() {
+        SimpleDateFormat sdformat = new SimpleDateFormat("dd.MM.yyyy");
         return "User{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", age=" + age +
                 ", email='" + email + '\'' +
                 ", status=" + status +
-                ", timeStamp='" + timeStamp + '\'' +
+                ", timeStamp='" + sdformat.format(timeStamp) + '\'' +
                 '}';
     }
 }
