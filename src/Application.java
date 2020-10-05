@@ -22,20 +22,20 @@ public class Application {
         Date yesterday = getYesterday();
         System.out.println(yesterday);
         User u1 = new User("Vasile","Petrov",20,"vasile.petrov@gmail.com",Status.NEW,new Date(1,10,2020));
-//        User u2 = new User("Adelaida","Nistor",22,"adelaida.nistor@gmail.com",Status.INACTIVE,"01.10.2020");
-//        User u3 = new User("Ada","Albu",33,"ada.albu@mail.ru",Status.NEW,"05.09.2020");
-//        User u4 = new User("Geanina","Petrescu",17,"geanina.petrescu@gmail.com",Status.BLOCKED,"12.07.2018");
-//        User u5 = new User("Fabian","Manole",18,"fabian.manole@gmail.com",Status.NEW,"02.12.2019");
-//        User u6 = new User("Fanel","Sava",13,"fanel.sava@gmail.com",Status.NEW,"03.09.2020");
-//        User u7 = new User("Emanuel","Puscasu",29,"emanuel.puscasu@gmail.com",Status.NEW,"01.10.2020");
-//        User u8 = new User("Edmond","Leontea",26,"edmond.leontea@yahoo.fr",Status.ACTIVE,"04.10.2020");
-//        User u9 = new User("Filip","Ifrim",45,"filip.ifrim@gmail.com",Status.ACTIVE,"05.08.2020");
-//        User u10 = new User("Felix","Andronache",56,"felix.andronache@gmail.com",Status.NEW,"03.07.2020");
-//        User u11 = new User("Gelu","Lupu",24,"gelu.lupu@gmail.com",Status.NEW,"08.05.2020");
-//        User u12 = new User("Haralambie","Ursu",32,"haralambie.ursu@gmail.com",Status.NEW,"01.10.2020");
-//        User u13 = new User("Ilarion","Voinea",30,"ilarion.voinea@gmail.com",Status.NEW,"04.08.2020");
-//        User u14 = new User("Iancu","Diaconu",40,"iancu.diaconu@gmail.com",Status.INACTIVE,"24.03.2020");
-//        User u15 = new User("Luca","Dobre",16,"luca.dobre@gmail.com",Status.NEW,"13.01git@github.com:TheoHappy/EndavaInception.git.2020");
+        User u2 = new User("Adelaida","Nistor",22,"adelaida.nistor@gmail.com",Status.INACTIVE,new Date(2,10,2020));
+        User u3 = new User("Ada","Albu",33,"ada.albu@mail.ru",Status.NEW,new Date(5,9,2020));
+        User u4 = new User("Geanina","Petrescu",17,"geanina.petrescu@gmail.com",Status.BLOCKED,new Date(12,07,2018));
+        User u5 = new User("Fabian","Manole",18,"fabian.manole@gmail.com",Status.NEW,new Date(2,12,2019));
+        User u6 = new User("Fanel","Sava",13,"fanel.sava@gmail.com",Status.NEW,new Date(3,9,2020));
+        User u7 = new User("Emanuel","Puscasu",29,"emanuel.puscasu@gmail.com",Status.NEW,new Date(1,10,2020));
+        User u8 = new User("Edmond","Leontea",26,"edmond.leontea@yahoo.fr",Status.ACTIVE,new Date(4,10,2020));
+        User u9 = new User("Filip","Ifrim",45,"filip.ifrim@gmail.com",Status.ACTIVE,new Date(5,8,2020));
+        User u10 = new User("Felix","Andronache",56,"felix.andronache@gmail.com",Status.NEW,new Date(3,7,2020));
+        User u11 = new User("Gelu","Lupu",24,"gelu.lupu@gmail.com",Status.NEW,new Date(8,5,2020));
+        User u12 = new User("Haralambie","Ursu",32,"haralambie.ursu@gmail.com",Status.NEW,new Date(1,10,2020));
+        User u13 = new User("Ilarion","Voinea",30,"ilarion.voinea@gmail.com",Status.NEW,new Date(4,8,2020));
+        User u14 = new User("Iancu","Diaconu",40,"iancu.diaconu@gmail.com",Status.INACTIVE,new Date(24,3,2020));
+        User u15 = new User("Luca","Dobre",16,"luca.dobre@gmail.com",Status.NEW,new Date(13,12,2019));
 
 
     }
